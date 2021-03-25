@@ -80,7 +80,7 @@ pagination: {
 
 //彈出視窗
 
-var U = "cart.html";
+var U = "member.html";
 //修改視窗位置、大小
 var X = 350; // x position
 var Y = 100; // y position
