@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/product_detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">  <!-- googlefont  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.0/swiper-bundle.min.css">
+    <script src="https://kit.fontawesome.com/dd1edd51d8.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> <!-- sweetalert -->
+    <title>Product_detail</title>
+</head>
+  <body>
+    <header class="header">
+      <nav class="header_nav">
+        <a id="logo" href="index.html"><img src="./img/logo.png" alt=""></a>
+        <div class="header_nav_list">
+            <ul class="header_nav_links">
+                <li><a href="makeyourown.html"><span><strong>Make Your Own</strong></span></a></li>
+                <li><a href="product.html" style="color: #3FA9F5;"><span><strong>Product</strong></span></a></li>
+                <li><a href="workshop.html"><span><strong>Work shop</strong></span></a></li>
+                <li><a href="theloren.html"><span><strong>The Loren</strong></span></a></li>
+            </ul>
+            <div class="header_nav_list_icon">
+                <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-id-badge"></i></a>
+            </div>
+        </div>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">  
+      <div class="breadcrumb">
+        <ol class="breadcrumb_list">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="product.html">Product</a></li>
+          <li>Product_detail</li>
+        </ol>
+      </div>
+      <main>
+        <div class="section_top">
+            <div class="section_1">
+                <div class="section_1_left">
+                    <img src="img/product_detail_4.jpg" alt="">
+                    <div>
+                        <ul class="ratings">
+                        <li>
+                            <p class="price"><i class="fas fa-dollar-sign"></i>249</p>
+                        </li>
+                        <li>
+                            <div class="star">★</div>
+                        </li>
+                        <li>
+                            <div class="star">★</div>
+                        </li>
+                        <li>
+                            <div class="star">★</div>
+                        </li>
+                        <li>
+                            <div class="star">★</div>
+                        </li>
+                        <li>
+                            <div class="star">★</div>
+                        </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="s-img">
+                        <li><img src="img/product_detail_3.jpg" alt=""></li>
+                        <li><img src="img/product_detail_2.jpg" alt=""></li>
+                        <li><img src="img/product_detail_1.jpg" alt=""></li>
+                        </ul>
+                    </div>
+                
+                </div>
+    
+                <div class="section_right">
+                    <form action="#" method="get">
+                      <p class="title">The Edible Flower Lollipop</p>
+                      <br>
+                      <p>Flavor</p>
+                      <select name="flavor">
+                          <option value="1">Select a option...</option>
+                          <option value="2">Watermelon</option>
+                          <option value="3">Candy floss</option>
+                          <option value="3">Rose</option>
+                          <option value="3">Strawberry</option>
+                          <option value="3">Champagne</option>
+                      </select>
+                      <br>
+                      <br>
+                      <p>Shape</p>
+                      <select name="shape">
+                          <option value="1">Select a option...</option>
+                          <option value="2">Circle</option>
+                          <option value="3">Triangle</option>
+                          <option value="3">Star</option>
+                      </select>
+                      <br>
+                      <br>
+                      <p>Size</p>
+                      <select name="size">
+                          <option value="1">Select a option...</option>
+                          <option value="2">2 inch</option>
+                          <option value="3">4 inch</option>
+                          <option value="3">6 inch</option>
+                      </select>
+                      <br>
+                      <br>
+                      <input type="number" name="" value="0" min="0">
+                      <input type="submit" value="Add to basket" class="buy">
+                    </form>
+                    <br>
+                    <div>
+                      <a id="shop_btn" href="product.html">back to product page</a>
+                   </div>
+                </div>
+            </div>
+        </div>         
+        <!-- section_1_end -->
+        <section class="section_2_container">
+          <div class="section_2">
+            <p>Reviews</p>
+            <div class="section_2_reviews">
+              <p>Average item reviews</p>
+              <div>
+                <ul class="ratings">
+                  <li><span>★</span></li>
+                  <li><span>★</span></li>
+                  <li><span>★</span></li>
+                  <li><span>★</span></li>
+                  <li><span>★</span></li>
+                  <li><p>(16888)</p></li>
+                </ul>
+              </div>
+            </div>
+            <div class="section_2_reviews_option">
+              <p>see reviews that mention</p>
+              <div class="seciton_2_options">
+                <div class="options_list">
+                  <p>Quality</p>
+                </div>
+                <div class="options_list">
+                  <p>Taste</p>
+                </div>
+                <div class="options_list">
+                  <p>Shipping</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="comments_1">
+            <div>
+              <ul class="left">
+                <li><i class="far fa-user-circle"></i></li>
+                <li>
+                  <p>Loren &nbsp;&nbsp; on Dec 08, 2020</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <ul class="ratings1">
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="comments_1_content">
+            <p>These lollipops are beyond cute and we’re exactly what I was hoping for! I ordered both pink and blue whale lollipops for the surprise gender reveal baby box I am sending to my parents- TheLollipopStudio checked with me to make sure they got
+              my order right, and everything got delivered quickly! Very happy with my purchase! Thank you!</p>
+          </div>
+          <div>
+            <ul class="comments_1_photo">
+              <li><img src="/img/section_3_2.jpg" alt=""></li>
+              <li><a href="product_detail.html">
+                  <p>Rainbow Lollipop</p>
+                </a></li>
+            </ul>
+          </div>
+          <hr>
+          <div class="comments_1">
+            <div>
+              <ul class="left">
+                <li><i class="far fa-user-circle"></i></li>
+                <li>
+                  <p>Owens &nbsp;&nbsp; on Dec 08, 2020</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <ul class="ratings1">
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="comments_1_content">
+            <p>These lollipops were such a huge hit at my daughter’s birthday party. The seller made sure they arrived in time and made minor adjustments so that they coordinated perfectly with the party theme. Thank you again and I will definitely order
+              again!!!!!!!</p>
+          </div>
+          <div>
+            <ul class="comments_1_photo">
+              <li><img src="./img/workshop_4.jpg" alt=""></li>
+              <li><a href="product_detail.html">
+                  <p>Rainbow Lollipop</p>
+                </a></li>
+            </ul>
+          </div>
+          <hr>
+          <div class="comments_1">
+            <div>
+              <ul class="left">
+                <li><i class="far fa-user-circle"></i></li>
+                <li>
+                  <p> Chris &nbsp;&nbsp; on Dec 08, 2020</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <ul class="ratings1">
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="comments_1_content">
+            <p>Was an absolute dream. Lollipops cane out perfect and everyone went crazy for them! She even put an extra Happy Birthday lollipop as a surprise. She was responsive, meticulous and just an easy pleasure from start to finish. Definitely
+              recommend.</p>
+          </div>
+          <div>
+            <ul class="comments_1_photo">
+              <li><img src="./img/workshop_7.jpg" alt=""></li>
+              <li><a href="product_detail.html">
+                  <p>Rainbow Lollipop</p>
+                </a></li>
+            </ul>
+          </div>
+          <hr>
+          <div class="comments_1">
+            <div>
+              <ul class="left">
+                <li><i class="far fa-user-circle"></i></li>
+                <li>
+                  <p>Relax &nbsp;&nbsp; on Dec 08, 2020</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <ul class="ratings1">
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="comments_1_content">
+            <p>Was an absolute dream. Lollipops cane out perfect and everyone went crazy for them! She even put an extra Happy Birthday lollipop as a surprise. She was responsive, meticulous and just an easy pleasure from start to finish. Definitely
+              recommend.</p>
+          </div>
+          <div>
+            <ul class="comments_1_photo">
+              <li><img src="./img/best_loren_5.jpg" alt=""></li>
+              <li><a href="product_detail.html">
+                  <p>Rainbow Lollipop</p>
+                </a></li>
+            </ul>
+          </div>
+          <hr>
+          <div class="comments_1">
+            <div>
+              <ul class="left">
+                <li><i class="far fa-user-circle"></i></li>
+                <li>
+                  <p>Loren on Dec 08, 2020</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <ul class="ratings1">
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+              <li>
+                <div class="empty_star1">★</div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="comments_1_content">
+            <p>Truly amazing! Fast shipping and great customer service! She made my son “Josiah” Nemo lollipops for his first birthday. This was her first time creating lollipops with the Finding Nemo theme and the lollipops came out so beautiful. Also
+              packaged very well!</p>
+          </div>
+          <div>
+            <ul class="comments_1_photo">
+              <li><img src="./img/index_section1_3.jpg" alt=""></li>
+              <li><a href="product_detail.html">
+                  <p>Rainbow Lollipop</p>
+                </a></li>
+            </ul>
+          </div>
+          <hr>
+        </section>
+      </main>
+      <footer>
+        <div>
+        <img src="./img/logo.png" alt="">
+        <ul>
+           <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+           <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+           <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
+           <li><a href="#"><i class="fab fa-line"></i></a></li>
+           <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+           <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+         </ul>
+         <p>BOURNEMOUTH, Boscombe East, 168 Loren Road.</p>
+         <p>Email: LorenLollipop168@Loren.com</p>
+       </div>
+    </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.0/swiper-bundle.min.js"></script>  
+    <script src="./js/makeyourown.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/product_detail.js"></script>    
+  </body>
+</html>
