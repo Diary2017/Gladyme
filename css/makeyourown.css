@@ -76,6 +76,12 @@ textarea{
 /*------------------------- section_1_end ------------------------- */
 
 /*------------------------- section_2 ------------------------- */
+
+
+.comments_1_content p{
+  font-family: Arial;
+}
+
 .section_2 {
   margin-top: 30px;
 }
