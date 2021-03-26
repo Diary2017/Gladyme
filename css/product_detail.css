@@ -319,5 +319,10 @@
     margin-right: 20px;
     text-decoration: none;
     }
+
+    .section_1_left > img{
+      width: 100%;
+    }
   }
+  
   
