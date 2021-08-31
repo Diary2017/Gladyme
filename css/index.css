@@ -201,7 +201,6 @@
 .swiper-container {
     width: 100%;
     height: 100%;
-    
   }
 
   .swiper-slide {
@@ -226,13 +225,10 @@
       width: 100%;
       border-radius: 20%;
   }
-
-
   
   #shop_btn{
     margin-top: 10px;
   }
-
 
 @media screen and (min-width: 781px) and (max-width:1532px){
 

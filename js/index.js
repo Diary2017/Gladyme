@@ -56,7 +56,7 @@ spaceBetween: 10,
 // init: false,
 pagination: {
     el: '.swiper-pagination',
-    clickable: true,
+    // clickable: true,
     },
     breakpoints: {
         '@0.00': {
@@ -71,10 +71,10 @@ pagination: {
             slidesPerView: 3,
             spaceBetween: 40,
         },
-        '@1.50': {
-            slidesPerView: 4,
-            spaceBetween: 50,
-        },
+        // '@1.50': {
+        //     slidesPerView: 4,
+        //     spaceBetween: 50,
+        // },
     }
 });
 
